@@ -1,0 +1,982 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.section-space {
+    padding: 40px 0;
+}
+
+.header-inner-wrapper {
+    background-color: rgba(0, 163, 200, 255);
+
+}
+
+/* .triangle-up {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid red;
+  }
+  .triangle-up .sodo::before {
+
+  } */
+.upper-navbar i {
+    color: white;
+    padding: 4px;
+
+}
+
+.upper-navbar .navbar-brand {
+    font-size: large;
+    margin: 0;
+}
+
+.upper-navbar .social-icons i {
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.upper-navbar .social-icons .btn {
+    background-color: rgba(86, 99, 193, 255);
+    padding: 12px;
+}
+
+.lower-navbar-wrapper {
+    box-shadow: 20px 20px 50px 15px grey;
+}
+
+.lower-navbar-wrapper .nav-link {
+    font-size: small;
+    font-weight: bold;
+    /* padding: 0 32px; */
+}
+
+.lower-navbar-wrapper .nav-item {
+    padding: 0 12px;
+    font-size: 1rem;
+    border-radius: 30px;
+
+
+}
+
+.lower-navbar-wrapper .nav-item:hover {
+
+    background-color: rgba(86, 99, 193, 255);
+
+}
+
+.lower-navbar-wrapper .navbar-nav .dropdown-menu {
+    margin-top: 24px;
+}
+
+/* .lower-navbar-wrapper .navbar-nav .nav-item:hover .dropdown-menu::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid gray;
+    position: fixed;
+    top: 130px;
+
+} */
+
+.lower-navbar-wrapper .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.lower-navbar-wrapper .psudo h4::after {
+    content: '';
+    width: 60px;
+    height: 5px;
+    background-color: rgba(198, 228, 234, 255);
+    display: block;
+}
+
+.lower-navbar-icons i {
+    font-size: large;
+    color: gray;
+    padding: 8px;
+}
+
+#suits {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    /* box-shadow: 2px solid thistle; */
+    position: absolute;
+    top: 54px;
+    right: 164px;
+    z-index: 2;
+}
+
+.main-carosuel-wrapper .carousel-item {
+    width: 100%;
+    height: 600px;
+}
+
+.main-carosuel-wrapper .carousel-caption h1 {
+    background-color: rgba(0, 163, 200, 255);
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    width: 60%;
+    background:linear-gradient(red,yellow,green,blue);
+}
+
+.main-carosuel-wrapper .carousel-caption h2 {
+    background-color: rgba(64, 113, 142, 255);
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin-top: 8px;
+    width: 65%;
+    background:linear-gradient(blue, green, yellow, red);
+}
+
+.main-carosuel-wrapper .carousel-caption p {
+    color: gray;
+    font-size: larger;
+
+}
+
+.main-carosuel-wrapper .carousel-caption .btn {
+    padding: 23px 67px;
+    border-radius: 156px;
+    font-size: larger;
+}
+
+.lead-text {
+    text-align: center;
+
+}
+
+.lead-text h2 {
+    font-size: 40px;
+    font-weight: bolder;
+   
+}
+
+.lead-text img {
+    width: 80px;
+    height: 50px;
+  
+}
+
+.description-info .card {
+    background-color: rgba(0, 163, 200, 255);
+    line-height: 28px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 8px 8px 20px 10px gray;
+    transition: all .3s ease-in-out!important;
+
+
+}
+.description-info .card:hover {
+    background-color: green;
+    opacity: 0.5;
+
+    
+}
+
+
+.description-info .card img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    transition: all .5s ease-in-out!important;
+
+}
+
+.description-info .card:hover img{
+    transform: rotatey(180deg)!important;
+}
+
+
+.description-info .card .btn {
+    padding: 8px 32px;
+}
+
+.medi-cards-wrapper .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: -6px -6px 10px 5px mediumaquamarine;
+}
+.medi-cards-wrapper .card:hover {
+    background-color: burlywood;
+}
+
+
+.medi-cards-wrapper .card .ambulance {
+    color: white;
+    width: 75px;
+    height: 60px;
+    background-color: rgba(0, 163, 200, 255);
+    border: 4px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 42%;
+    left: 40px;
+
+}
+.emergancy-service-wrapper .btm:hover {
+    background: linear-gradient(orange,gray, magenta, brown);
+}
+.emergancy-service-wrapper img {
+    width: 75px;
+    height: 60px;
+}
+
+.specialization-wrapper .nav-tabs .nav-link {
+    border: none;
+}
+
+.specialization-wrapper .nav-link i {
+    width: 140px;
+    height: 120px;
+    font-size: 100px;
+    color: rgba(169, 169, 169, 255);
+    /* padding-top: 16px; */
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.specialization-wrapper .nav-item .nav-link.active i,
+.specialization-wrapper .nav-item .nav-link i:hover {
+    color: rgba(86, 99, 193, 255) !important;
+    /* padding-top: 16px; */
+
+
+}
+/* 
+.specialization-wrapper .nav-tabs p {
+    padding-bottom: 16px;
+} */
+
+/* .specialization-wrapper .nav-tabs p:hover{
+    border-bottom: 4px solid rgba(86,99,193,255) !important;
+
+} */
+.specialization-wrapper .nav-link img {
+    width: 140px;
+    height: 120px;
+    font-size: 100px;
+    color: rgba(169, 169, 169, 255);
+    /* padding-top: 16px; */
+}
+.specialization-wrapper ul li {
+
+    border-bottom: 4px solid transparent;
+}
+
+.specialization-wrapper ul li:hover {
+    color: rgba(86, 99, 193, 255);
+    border-bottom: 4px solid rgba(86, 99, 193, 255) !important;
+}
+
+.specialization-wrapper .check img {
+    width: 15px;
+    height: 15px;
+}
+
+.specialization-wrapper .h5:hover {
+    color: rgba(86, 99, 193, 255);
+}
+
+.specialization-wrapper .bottom p {
+    margin: 0;
+}
+
+.employee-info-wrapper {
+    position: relative;
+}
+
+.employee-info-wrapper .c-effect:hover {
+    opacity: .5;
+}
+
+.employee-info-wrapper .c-effect .chain {
+    border: 0;
+    position: absolute;
+    top: 21%;
+    left: 210px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.employee-info-wrapper .c-effect .chain:hover {
+    opacity: 1;
+    transform: rotate(270deg);
+    background-color: rgba(26, 26, 26, 255);
+}
+.employee-info-wrapper i.fa {
+    padding: 12px;
+    border: 3px solid rgba(169, 169, 169, 255);
+    border-radius: 50%;
+    background-color: rgba(0, 163, 200, 255);
+    color: white;
+}
+
+.price-plan-card .card {
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 6px 6px 3px 10px gray inset;
+}
+.price-plan-card .card:hover {
+   background-color: darkolivegreen;
+}
+
+.price-plan-card img {
+    width: 140px !important;
+    padding-top: 80px;
+    align-self: center;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color: rgba(230, 230, 230, 255);
+
+}
+
+.price-plan-card .label {
+
+    background-color: rgba(0, 163, 200, 255);
+    position: absolute;
+    top: 43px;
+    transform: rotate(41deg);
+    padding: 5px 103px;
+    right: -50px;
+    font-size: small;
+}
+
+.facilitation-info-wrapper .facilitation {
+    background-color: rgba(0, 163, 200, 255);
+    color: white;
+}
+
+.facilitation-info-wrapper ul li {
+    padding: 16px 0;
+}
+
+.facilitation-info-wrapper .form-control {
+
+    font-size: 1rem;
+
+    line-height: 3.5;
+}
+
+.facilitation-info-wrapper .form-btn .btn:hover {
+    color: black;
+}
+.patient-related-wrapper .card {
+    box-shadow: 6px 6px  10px slategray;
+}
+.patient-related-wrapper .card:hover {
+   background: linear-gradient(to right, pink, wheat, yellow, green);
+}
+.patient-related-wrapper img {
+    width: 100%;
+    height: 250px;
+}
+
+.patient-related-wrapper a {
+    text-decoration: none;
+}
+.employee-intro-wrapper .sml {
+   box-shadow: 6px 6px 10px  gray;
+}
+
+.employee-intro-wrapper .sml:hover {
+    background: linear-gradient(to left, red, blue, green, orange);
+ }
+.employee-intro-wrapper img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+.employee-intro-wrapper a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.emergancey-info-wrapper .info:hover {
+   background: linear-gradient(green, gray, pink, magenta);
+}
+.emergancey-info-wrapper img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer .navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .doctor img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
+
+.button-up-wrapper {
+    position: relative;
+}
+
+.button-up-wrapper a {
+    background-color: rgba(29, 104, 121, 255);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 36px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.button-up-wrapper a:hover {
+    background-color: rgba(29, 104, 121, 255);
+}
+
+.sidebar-icons {
+    /* border: 1px solid black; */
+    position: relative;
+    /* border: 1px 1px 1px 0 solid black; */
+    z-index: 9999999999999;
+
+}
+
+.sidebar-icons .images {
+    position: fixed;
+    top: 215px;
+    right: -220px;
+    border: 1px solid green;
+    border-radius: 8px;
+
+
+}
+
+.sidebar-icons img {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+
+}
+.sidebar-icons #ext {
+    position: fixed;
+    color: orchid;
+    right: 66px;
+    background-color: white;
+    padding: 12px;
+    top: 220px;
+    background-color: wheat;
+  
+}
+.sidebar-icons #WP {
+    position: fixed;
+    color: orchid;
+    right: 66px;
+    background-color: white;
+    padding: 12px;
+    top: 268px;
+    background-color: wheat;
+}
+.sidebar-icons #Buy_wp {
+    position: fixed;
+    color: orchid;
+    right: 66px;
+    background-color: white;
+    padding: 12px;
+    top: 321px;
+    background-color: wheat;
+}
+.sidebar-icons #docs {
+    position: fixed;
+    color: orchid;
+    right: 66px;
+    background-color: white;
+    padding: 12px;
+    top: 370px;
+    background-color: wheat;
+}
+.side-wrapper {
+    position: relative;
+}
+
+.side-wrapper .setting:hover {
+    background-color: rgba(8, 11, 11, 255)
+}
+
+.side-wrapper .hidden {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    right: 46%;
+
+    transform: translateX(-661px);
+}
+
+.side-wrapper .hidden .hidden-menu {
+    position: fixed;
+    width: 77%;
+    overflow-y: scroll;
+    height: 800px;
+}
+
+.side-wrapper .setting {
+    width: 10px;
+}
+
+.side-wrapper a img {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(25, 25, 25, 255);
+    color: white;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transform: translate(-35px, 130px);
+}
+
+.side-wrapper .btn {
+    padding: 24px 26px;
+    border: 0;
+    border-radius: 0;
+
+}
+
+.side-wrapper .small {
+    padding: 8px 10px;
+}
+
+.my-sidebar {
+    transform: translateX(-350px);
+    height: 100%;
+    z-index: 999999999999999999;
+}
+
+.my-sidebar-inner {
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.sidebar-hidden {
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .navbar {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .description-info .card {
+        margin-bottom: 30px;
+    }
+
+    .medi-cards-wrapper .sml {
+        text-align: center;
+    }
+
+    .emergancy-service-wrapper .sml {
+        text-align: center;
+    }
+
+    .emergancy-service-wrapper .btm {
+        margin-bottom: 30px;
+    }
+
+    .specialization-wrapper .test {
+        text-align: center;
+        padding-top: 16px;
+
+    }
+
+    .employee-info-wrapper .btm {
+        margin-bottom: 30px;
+    }
+
+    .employee-info-wrapper .t-cnt {
+        text-align: center;
+    }
+
+    .employee-info-wrapper .sml {
+        margin-bottom: 30px;
+    }
+
+    .price-plan-card .btm {
+        margin-bottom: 30px;
+    }
+
+    .facilitation-info-wrapper .facilitation {
+        text-align: center;
+
+
+    }
+
+    .facilitation-info-wrapper .facilitation li {
+
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .facilitation-info-wrapper .form {
+        margin-left: 24px;
+        text-align: center;
+    }
+
+    .facilitation-info-wrapper .form-btn {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+    }
+
+    .patient-related-wrapper .sml {
+        text-align: center;
+    }
+
+    .employee-intro-wrapper .sml {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .footer .scn {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer .sml {
+
+        margin-bottom: 30px;
+    }
+
+    .bottom-navbar .sml {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .navbar {
+        justify-content: center;
+    }
+
+    .carousel-caption {
+        margin: 120px;
+    }
+
+    .main-carosuel-wrapper .carousel-inner .carousel-caption h1 {
+        font-size: xx-large;
+    }
+
+    .main-carosuel-wrapper .carousel-inner .carousel-caption h2 {
+        font-size: xx-large;
+    }
+
+    .description-info .card {
+        margin-bottom: 30px;
+    }
+
+    .emergancy-service-wrapper .btm {
+        margin-bottom: 30px;
+    }
+
+    .emergancy-service-wrapper .top {
+        padding: 0 !important;
+    }
+
+    .specialization-wrapper .test {
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .employee-info-wrapper .btm {
+        margin-bottom: 30px;
+    }
+
+    .facilitation-info-wrapper .facilitation {
+        text-align: center;
+
+    }
+
+    .facilitation-info-wrapper .facilitation li {
+
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .facilitation-info-wrapper .form {
+        margin-left: 24px;
+    }
+
+    .footer .sml {
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-caption {
+        margin: 100px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+                /* ////////..............//////// */
+
+.operational-service-wrapper .box {
+    border: 1px silver;
+  padding: 10px;
+  box-shadow:5px 0  5px #888888;
+}
+.description-wrapper .bgd {
+
+    background-color: rgba(32,34,37,255);
+}
+.description-wrapper .bgd  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.operational-service-wrapper a   {
+    font-size: larger;
+    text-decoration: none;
+}
+.facilities-providing-wrapper img {
+    width: 80px;
+    height: 80px;
+    padding:16px;
+    background-color:beige;
+
+}
+.facilities-providing-wrapper img:hover {
+    background-color: rgba(0,163,200,255);
+    transform: rotatey(180deg);
+    transition: all .3s ease-in-out;
+}
+.facilities-providing-wrapper .cancer img {
+    width: 100%;
+    height: 250px;
+    background-color: inherit;
+}
+.facilities-providing-wrapper .accordion-item .accordion-button:hover{
+    background-color: rgba(0,163,200,255)!important;
+    color: #fff;
+}
+/* .facilities-providing-wrapper .accordion-item .accordion-button {
+    border: 1px solid rgba(0,163,200,255);
+    border-radius: 12px; */
+
+/* } */
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .operational-service-wrapper {
+        text-align: center;
+        
+    }
+    .operational-service-wrapper .sm {
+        padding-top: 40px;
+    }
+    .facilities-providing-wrapper .cancer {
+        padding-top: 40px;
+    }
+    .facilities-providing-wrapper  {
+        text-align: center;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .facilities-providing-wrapper .cancer {
+        padding-top: 40px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+
+
+
+                     /* ////////..............//////// */
+
+
+.sample-product-wrapper .product img {
+    background:linear-gradient rgba(234,239,243,255)!important;  
+}
+.sample-product-wrapper .carousel-indicators {
+    bottom: -184px;
+    left: -188px;
+ 
+} 
+.sample-product-wrapper .product .carousel-indicators li {
+    width: 100px;
+    height: 100px;
+  background-position: center;
+  background-size: cover;
+ 
+} 
+
+
+.sample-product-wrapper .star img {
+    width: 20px;
+    height: 20px;
+}
+.additional-info-wrapper .nav-link {
+ color: #000000 ;
+ font-weight: bold;
+ 
+}
+.additional-info-wrapper .nav-link:hover {
+
+    background-color: lightblue ;
+}
+.additional-info-wrapper .review .opd img {
+    width: 70px;
+    height: 70px;
+    margin-left: 32px;
+    margin-top: 32px;
+} 
+.additional-info-wrapper .review .star img {
+    width: 20px;
+    height: 20px;
+}
+.brand-product-wrapper .card {
+    box-shadow: 6px 6px 20px 10px rgb(247, 241, 241);
+    position: relative;
+}
+/* .brand-product-wrapper .card:hover {
+    background-color:  rgb(247, 241, 241);
+    opacity: 1;
+    transition: all .3s ease-in-out;
+} */
+.brand-product-wrapper .card-img-top{
+    display: block;
+}
+/* .brand-product-wrapper .card-img-top2{
+    display: none;
+}
+.brand-product-wrapper .card-img-top:hover{
+    display: none;
+}
+.brand-product-wrapper .card-img-top2:hover{
+    display: block;
+} */
+/* .brand-product-wrapper .card-img-top:hover{
+    display: none;
+} */
+
+.brand-product-wrapper  .icon {
+    position: absolute;
+    top:40%;
+    left: -10px;
+    transform: translateX(110px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+  
+
+}
+.brand-product-wrapper  .icon:hover {
+    opacity: 1 ;
+
+}
+.brand-product-wrapper .icon img {
+    width: 40px;
+    height: 40px;
+ 
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sample-product-wrapper .comit-star {
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .sample-product-wrapper .star , h3{
+     margin-top: 80px;
+     text-align: center;
+    }
+    .brand-product-wrapper .space {
+        padding-bottom: 40px;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .sample-product-wrapper .comit-star {
+       
+       justify-content: center;
+       align-items: center;
+   }
+   .sample-product-wrapper .star , h3{
+    margin-top: 80px;
+    text-align: center;
+   }
+   .brand-product-wrapper .space {
+    padding-bottom: 40px;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}

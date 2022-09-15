@@ -1,0 +1,1143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/test.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div class="section-site">
+    <header class="header">
+      <div class="header-inner-wrapper">
+        <div class="container">
+          <nav class="navbar navbar-light upper-navbar">
+
+            <div class="contact-info">
+              <a href="tel:+440-98-5298" class="navbar-brand text-white " style="margin-right: 8px;"><i
+                  class="fa fa-phone" aria-hidden="true"></i>Tel:+440-98-5298</a>
+              <a href="mailto:zeeshankhursheed680@gmail.com target_blank" class="navbar-brand text-white"
+                style="border-left:1px solid white ; border-right:1px solid white; padding:0 16px; font-size: large;"><i
+                  class="fa fa-envelope-o" aria-hidden="true"></i>info@example.com</a>
+              <a href="https://goo.gl/maps/Lh7aTs5WWBfB57jaA" target="_blank" class="navbar-brand text-white"><i
+                  class="fa fa-map" aria-hidden="true"></i>121 King street,
+                Melborone</a>
+
+            </div><!-- /.contact-info -->
+
+            <div class="d-flex social-icons">
+              <a href="https://facebook.com" target="_blank" class="pt-2"><i class="fa fa-facebook-square"
+                  aria-hidden="true"></i></a>
+              <a href="https://tweeter.com" target="_blank" class="pt-2"><i class="fa fa-twitter-square"
+                  aria-hidden="true"></i></a>
+              <a href="https://youtube.com" target="_blank" class="pt-2"><i class="fa fa-youtube-play"
+                  aria-hidden="true"></i></a>
+              <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="modal"
+                data-bs-target="#apointmentExampleModal">Make an
+                Appointment</a>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="apointmentExampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+
+                <form class="row gy-2 gx-3 align-items-center">
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">Name</label>
+                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-text">@</div>
+                      <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-auto">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                      <label class="form-check-label" for="autoSizingCheck">
+                        Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+
+
+
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.header-inner-wrapper -->
+
+      <!-- <div class="triangle-up sodo">
+
+      </div>/.triangle-up -->
+
+
+      <div class="lower-navbar-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="width:60px ;position: relative;"> <b
+                style="font-size:30px;position: absolute; top: 20px;">MEDINOVA</b> <br><span
+                style="font-weight:lighter; font-size:small; position: absolute;left: 272px; top: 48px; "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </ul>
+
+
+              <div class="d-flex">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active text-white"
+                      style="background-color:rgba(86,99,193,255) ;border-radius: 30px; " href="#" id="navbarDropdown"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Hot
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      News
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Shortcodes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item " style="display:flex; justify-content: center; align-items:center;">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                        class="fa fa-search text-muted" aria-hidden="true"></i></a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog" style="max-width:100% ; top:-30px;">
+                        <div class="modal-content">
+                          <div class="modal-header" style="border-bottom: 0;">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <input type="text" class="form-control text-center pb-5"
+                              style="border: 0; font-size: xx-large; box-shadow: none;" id="exampleFormControlInput1"
+                              placeholder="Type and press Enter...">
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+
+                  <li class="nav-item " style="display:flex; justify-content: center; align-items:center;">
+                    <div class="col-md-12"
+                      style="display:flex; justify-content: center; align-items:center; position: relative;">
+                      <!-- <a href="" style="position: relative;"  onmouseenter="show()" onmouseleave="hide()" ><i class="fa fa-shopping-cart text-muted" aria-hidden="true">
+                        </i></a> -->
+                      <a href="" onmouseenter="myfunction()" onmouseleave="hide()"><i
+                          class="fa fa-shopping-cart text-muted" aria-hidden="true">
+                        </i></a>
+                    </div>
+                    <div id="suits" style="display: none;">
+
+                      <div class="row pt-5 ">
+                        <div class="col-md-6 text-center">
+                          <i class="fa fa-times" aria-hidden="true">Banie</i>
+                          <p>1 x $ 18.00</p>
+                        </div><!-- /.col-md-6 -->
+                        <div class="col-md-6">
+                          <img style="width: 50px; height: 50px;" src="img/doctor.png" alt="">
+                        </div><!-- /.col-md-6 -->
+                        <div class="col-md-12 pt-5 text-center">
+                          <button type="button" class=" btn-primary text-white">View Chart</button>
+                          <button type="button" class=" btn-primary text-white">Check Out</button>
+                        </div><!-- /.col-md-6 -->
+                      </div><!-- /.row -->
+
+
+                    </div>
+
+
+                  </li>
+
+
+
+                  <li class="nav-item " style="display:flex; justify-content: center; align-items:center;">
+                    <div class="col-md-12" style="display:flex; justify-content: center; align-items:center;">
+                      <a href="" data-bs-toggle="modal" data-bs-target="#eventBackdrop"><i
+                          class="fa fa-align-left text-muted" aria-hidden="true"></i></a>
+                    </div><!-- /.col-md-12 -->
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="eventBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                      tabindex="-1" aria-labelledby="eventBackdropLabel" aria-hidden="true" style=" height: 110%;   top: -31px;
+                      left: 435px;">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="eventBackdropLabel"> <a class="navbar-brand " href="#"
+                                style="margin-top: 20px;"><img src="img/logo.png" alt=""
+                                  style="width:50px ;position: relative;"> <b
+                                  style="font-size:20px;position: absolute; top: 24px;  ">MEDINOVA</b> <br><span
+                                  style="font-weight:lighter; font-size:small; position: absolute;left: 272px; top: 48px; "></a>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                              style="margin-top: -80px;"></button>
+                          </div>
+                          <p style="margin: 0 24px; font-size:small;">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. <br>Fugit sint porro Repellendus.</p>
+
+                          <footer class="footer psudo">
+
+                            <div class="row  pt-4">
+
+
+                              <div class="col-md-6 " style="margin: 0 24px; font-size:small;">
+                                <h4>Latest News</h4>
+                                <hr>
+                                <div class="row doctor">
+                                  <div class="col-md-4">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6">
+                                    <p>Sustainable</p>
+                                    <p>Construction</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4 pt-3">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 pt-4">
+                                    <p>Sustainable</p>
+
+                                    <p>April 15, 2021</p>
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4 pt-3">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 pt-4">
+                                    <p>Sustainable</p>
+
+                                    <p>April 15, 2021</p>
+                                  </div><!-- /.col-md-6 -->
+                                </div><!-- /.row -->
+                              </div><!-- /.col-md-3 -->
+
+
+                          </footer>
+
+                          <footer class="footer psudo">
+
+                            <div class="row py-4">
+
+
+                              <div class="col-md-6 " style="margin: 0 24px; font-size:small;">
+                                <h4>Contact Info</h4>
+                                <hr>
+                                <div class="row doctor">
+                                  <div class="col-md-4 ">
+                                    <i class="fa fa-user-md " aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>John Doe</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>+51 925 925 125</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>@gmail.com</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>Bank flofward london</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+
+                                </div><!-- /.row -->
+                              </div><!-- /.col-md-3 -->
+
+                          </footer>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+      </div><!-- /.lower-navbar-wrapper -->
+
+
+    </header>
+
+    <div class="description-wrapper bg-white text-center ">
+      <div class="row">
+        <div class="col-md-12 bgd text-white py-5">
+          <h1 class="pb-3">Product Details</h1>
+          <a href="">Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <a href="">Pages <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          <a href="">Page Title</a>
+        </div><!-- /.col-md-12 -->
+
+      </div><!-- /.row -->
+    </div><!-- /.description-wrapper -->
+
+    <div class="sample-product-wrapper py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 product pb-5">
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carosuel-control">
+                <ol class="carousel-indicators pb-5">
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1" style="background-image: url('./img/hoddie\ 1.png');"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+                    style="background-image: url('./img/hoddie-2.jpg');"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
+                    style="background-image: url('./img/hoddie\ 3.png');"></li>
+                </ol>
+              </div><!-- /.carosuel-control -->
+
+              <div class="carousel-inner">
+                <div class="carousel-item active bg-success bg-opacity-25" data-bs-interval="5000">
+                  <img src="img/hoddie 11.png" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item bg-success bg-opacity-25" data-bs-interval="2000">
+                  <img src="img/hoddie-2.jpg" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item bg-success bg-opacity-25" data-bs-interval="2000">
+                  <img src="img/hoddie 3.png" class="d-block w-100" alt="...">
+
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-12 col-lg-6 star pt-3">
+            <h3>Cordless Multi Screwdrivers</h3>
+            <Span class="comit-star" style="display:flex ; "><img src="img/comment_stars-removebg-preview.png " alt="">
+              <img src="img/comment_stars-removebg-preview.png" alt="">
+              <img src="img/comment_stars-removebg-preview.png" alt="">
+              <img src="img/comment_stars-removebg-preview.png" alt="">
+              <img src="img/comment_stars-removebg-preview.png" alt="">
+              <img src="img/comment_stars-removebg-preview.png" alt="">
+              <p class="text-muted">(1 customer review)</p>
+            </Span>
+            <h5 style="color:rgba(124,167,105,255); padding-top:8px">$ 42.00 to $ 45.00</h5>
+            <p class="text-muted py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem asperiores
+              quisquam quis quia excepturi aperiam.</p>
+            <h6>Size&Fit</h6>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+            <h6>Material & Care</h6>
+            <p class="text-muted " style="margin-bottom: 0;">100% Geninue</p>
+            <p class="text-muted">Machine Wash</p>
+            <p class="pt-2 text-muted">
+              <h6 style="display: inline-block; ">SKU:</h6> <span class=" text-muted">woo-hoodie</span>
+            </p>
+            <p style="margin-bottom:-24px ;" class=" text-muted">
+              <h6 style="display: inline-block;">Catagories:</h6> <span class="text-muted">Hoodies</span>
+            </p>
+            <button id="btn-dec" onclick="decrease()" style="border:1px solid gray; width: 30px; height: 60px; margin-top: 1px;
+          margin-right: -5px;">-</button>
+            <input type="mumber" style="    width: 60px; height: 60px; text-align: center;" id="txt" value="1">
+            <button onclick="increase()"
+              style="border:1px solid gray;  width: 30px; height: 60px; margin-left:-5px;">+</button>
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+    </div><!-- /.sample-product-wrapper -->
+
+
+    <div class="additional-info-wrapper section-space">
+      <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+              role="tab" aria-controls="home" aria-selected="true">Description</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+              role="tab" aria-controls="profile" aria-selected="false">Additional Information</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+              role="tab" aria-controls="contact" aria-selected="false">Review</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent" style="border: 1px solid rgb(247, 244, 244);">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <p class="pt-4 text-muted" style="font-size:small; padding-left:16px;">Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Repudiandae fugit illo recusandae pariatur exercitationem incidunt ab nisi
+              harum inventore aliquid corrupti modi dolorem aut quas similique, illum, veniam temporibus, omnis maiores
+              sequi! Quos amet dolores aliquid eaque? Molestiae vero, blanditiis dolore reiciendis facere modi quo?
+              Cumque asperiores nam ratione facilis aliquid eaque? Molestiae vero, blanditiis dolore reiciendis facere
+              modi quo? Cumque asperiores nam ratione facilis??</p>
+
+            <p class="pt-3 text-muted" style="font-size:small; padding-left:16px;">Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Quidem facilis accusamus impedit et quam modi consequuntur tenetur nesciunt
+              doloribus ratione. Illum similique repudiandae aut. Optio suscipit repellendus nisi quia itaque.</p>
+
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+            <table class="table">
+
+              <tbody style="font-size: small;">
+                <tr class="table-primary ">
+                  <td style="font-weight: bold;">Brand</td>
+                  <td style="border-left:1px solid rgb(246, 242, 242);">Evato</td>
+                <tr>
+                  <td style="font-weight: bold;">Color</td>
+                  <td style="border-left:1px solid rgb(246, 242, 242);">Black</td>
+                </tr>
+                <tr class="table-primary">
+                  <td style="font-weight: bold;">Size</td>
+                  <td style="border-left:1px solid rgb(246, 242, 242);">medium</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: bold;">weight</td>
+                  <td style="border-left:1px solid rgb(246, 242, 242);">large</td>
+                </tr>
+                <tr class="table-primary">
+                  <td style="font-weight: bold;">Dimension</td>
+                  <td style="border-left:1px solid rgb(246, 242, 242);">16 x 22 x 25</td>
+                </tr>
+
+                </tr>
+
+
+              </tbody>
+            </table>
+
+          </div>
+          <div class="tab-pane fade review" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+            <div class="row">
+
+              <div class="col-md-2 opd">
+                <img src="img/card (2).png" alt="">
+
+              </div><!-- /.col-md-2 -->
+              <div class="col-md-5"
+                style="display: flex; justify-content: left; align-items: baseline; padding-left:0;padding-top:32px; margin-left:-60px;">
+                <p>
+                  <h6>Tom Joe</h6><span class="text-muted">-March 15,2015</span>
+                </p>
+              </div><!-- /.col-md-5 -->
+              <div class="col-md-5 star">
+
+                <Span style="display:flex ; padding-top:32px; justify-content: end; align-items: end;">
+                  <img src="img/comment_stars-removebg-preview.png " alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                </Span>
+
+              </div><!-- /.col-md-5 -->
+              <p style="padding-left: 132px; margin-top:-26px;font-size:small" class="text-muted">Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Eveniet magnam inventore quo obcaecati assumenda asperiores vitae,
+                saepe sequi laboriosam undeipsum dolor sit, amet consectetur adipisicing elit. Eveniet magnam inventore
+                quo obcaecati assumenda asperiores?</p>
+            </div><!-- /.row -->
+
+            <div class="row">
+
+              <div class="col-md-2 opd">
+                <img src="img/card (2).png" alt="">
+
+              </div><!-- /.col-md-2 -->
+              <div class="col-md-5"
+                style="display: flex; justify-content: left; align-items: baseline; padding-left:0;padding-top:32px; margin-left:-60px;">
+                <p>
+                  <h6>Tom Joe</h6><span class="text-muted">-March 15,2015</span>
+                </p>
+              </div><!-- /.col-md-5 -->
+              <div class="col-md-5 star">
+
+                <Span style="display:flex ; padding-top:32px; justify-content: end; align-items: end;">
+                  <img src="img/comment_stars-removebg-preview.png " alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                  <img src="img/comment_stars-removebg-preview.png" alt="">
+                </Span>
+
+              </div><!-- /.col-md-5 -->
+              <p style="padding-left: 132px; margin-top:-26px;font-size:small" class="text-muted">Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Eveniet magnam inventore quo obcaecati assumenda asperiores vitae,
+                saepe sequi laboriosam undeipsum dolor sit, amet consectetur adipisicing elit. Eveniet magnam inventore
+                quo obcaecati assumenda asperiores?</p>
+            </div><!-- /.row -->
+
+          </div>
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.additional-info-wrapper -->
+
+    <div class="lead-text " style="text-align:left;">
+      <div class="container">
+        <h5>Related Porducts</h5>
+      </div><!-- /.container -->
+    </div><!-- /.lead-text -->
+
+    <div class="brand-product-wrapper pt-3 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 space">
+            <div class="card ">
+              <img src="img/hoddie 1.png" class="card-img-top" alt="...">
+              <!-- <img src="img/hoddie-2.jpg" class="card-img-top2" alt=""> -->
+              <div class="icon">
+                <img style="background-color: white;" src="img/comment_stars-removebg-preview.png" alt="">
+                <img style="margin-left: 8px; background-color:white;" src="img/carts.png" alt="">
+              </div>
+              <div class="card-body">
+                <p class="text-muted" style="font-size: small;">MUSIC</p>
+                <h6 class="card-title">Product Title</h6>
+                <p class="card-text text-muted pt-3" style="font-size: small;">$ 18.00 $ 16.00</p>
+              </div>
+            </div>
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 space">
+            <div class="card ">
+              <img src="img/hoddie 1.png" class="card-img-top" alt="...">
+              <!-- <img src="img/hoddie-2.jpg" class="card-img-top2" alt=""> -->
+              <div class="icon">
+                <img style="background-color: white;" src="img/comment_stars-removebg-preview.png" alt="">
+                <img style="margin-left: 8px; background-color:white;" src="img/carts.png" alt="">
+              </div>
+              <div class="card-body">
+                <p class="text-muted" style="font-size: small;">MUSIC</p>
+                <h6 class="card-title">Product Title</h6>
+                <p class="card-text text-muted pt-3" style="font-size: small;">$ 18.00 $ 16.00</p>
+              </div>
+            </div>
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 space">
+            <div class="card ">
+              <img src="img/hoddie 1.png" class="card-img-top" alt="...">
+              <!-- <img src="img/hoddie-2.jpg" class="card-img-top2" alt=""> -->
+              <div class="icon">
+                <img style="background-color: white;" src="img/comment_stars-removebg-preview.png" alt="">
+                <img style="margin-left: 8px; background-color:white;" src="img/carts.png" alt="">
+              </div>
+              <div class="card-body">
+                <p class="text-muted" style="font-size: small;">MUSIC</p>
+                <h6 class="card-title">Product Title</h6>
+                <p class="card-text text-muted pt-3" style="font-size: small;">$ 18.00 $ 16.00</p>
+              </div>
+            </div>
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 space">
+            <div class="card ">
+              <img src="img/hoddie 1.png" class="card-img-top" alt="...">
+              <!-- <img src="img/hoddie-2.jpg" class="card-img-top2" alt=""> -->
+              <div class="icon">
+                <img style="background-color: white;" src="img/comment_stars-removebg-preview.png" alt="">
+                <img style="margin-left: 8px; background-color:white;" src="img/carts.png" alt="">
+              </div>
+              <div class="card-body">
+                <p class="text-muted" style="font-size: small;">MUSIC</p>
+                <h6 class="card-title">Product Title</h6>
+                <p class="card-text text-muted pt-3" style="font-size: small;">$ 18.00 $ 16.00</p>
+              </div>
+            </div>
+          </div><!-- /.col-md-3 -->
+        </div><!-- /.row -->
+
+
+
+
+
+      </div><!-- /.container -->
+    </div><!-- /.brand-product-wrapper -->
+
+
+
+
+
+
+    </main>
+
+    <footer class="footer" style="background-color: rgba(26,26,26,255);">
+      <div class="container">
+        <div class="row py-5 section-space scn">
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""> <span class="text-white">MEDINOVA</span>
+            </a>
+            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, modi! Ut cumque reprehenderit
+              magni, nulla</p>
+            <div class="row">
+              <div class="col-md-2">
+                <i class="fa fa-facebook-square" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-twitter-square" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-youtube-play" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-instagram" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+
+            </div><!-- /.row -->
+
+
+
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <h4 class="text-white">Latest News</h4>
+            <hr>
+            <div class="row text-white doctor">
+              <div class="col-md-4">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+                <p style="margin-bottom: 12px;">Construction</p>
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+
+              <div class="col-md-4 pt-3">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6 pt-4">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+
+              <div class="col-md-4 pt-3">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6 pt-4">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <h4 class="text-white">Links</h4>
+            <hr>
+            <div class="row text-white ">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+
+            </div><!-- /.row -->
+
+          </div>
+
+          <div class="col-md-6 col-lg-3 text-white ">
+            <h4 class="text-white">Opening Hours</h4>
+            <hr>
+            <p>Friday - Saturday: 10:00am - 6.00pm</p>
+            <hr>
+            <p>Friday - Saturday: 10:00am - 6.00pm</p>
+            <hr>
+            Sunday: Closed
+          </div>
+        </div>
+      </div><!-- /.container -->
+
+    </footer>
+
+    <div class="bottom-navbar py-3 " style="background-color: rgba(42,42,42,255);">
+      <div class="container">
+        <div class="row text-white m-auto sml" style="justify-content: space-between; ">
+          <div class="col-md-4" style="color:rgba(160,166,163,255);">
+            <p>2021 Theme Moscat. All Right Reserved.</p>
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-2" style="color:rgba(160,166,163,255);     padding-left: 74px;">
+            <p>Site Template.</p>
+          </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.bottom-navbar -->
+  </div><!-- /.section-site -->
+
+  <div class="button-up-wrapper">
+    <div class="row">
+      <div class="col">
+        <a href=""><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.button-up-wrapper -->
+
+  <div class="sidebar-icons">
+    <div class="row images bg-white">
+      <div class="col-12 ">
+        <a href="" onmouseenter="myextention()" onmouseleave="exthide()"> <img src="img/carts.png" alt=""></a>
+        <div style="display: none !important;" id="ext">By HTML</div>
+
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+        <a href="" onmouseenter="mywp()" onmouseleave="yhide()"> <img src="img/w.jpg" alt=""> </a>
+        <div style="display: none;" id="WP">Check WP</div>
+
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+        <a href="" onmouseenter="buywp()" onmouseleave="zhide()"> <img src="img/cart w.jpg" alt=""> </a>
+        <div style="display: none;" id="Buy_wp">BUY WP</div>
+
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+
+        <a href="" onmouseenter="Document()" onmouseleave="yzhide()"> <img src="img/docs.png" alt=""></a>
+        <div style="display: none;" id="docs">Docs</div>
+
+      </div><!-- /.col-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.sidebar-icons -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+
+
+
+</body>
+<div class="px-3 my-sidebar" id="box"
+  style="background-color: rgba(8,11,11,255) ; width: 350px;position: fixed; bottom:0;left:0;top: 0;">
+  <h5 class="text-white p-3" style="background-color: rgba(0,7,8,255);">Style Switcher</h5>
+  <div class="my-sidebar-inner">
+    <p class="text-muted mb-0">Theme color set</p>
+    <p class="text-muted mb-0">(You can create your own set easily):</p>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(95,199,174,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(89,180,115,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(89,180,115,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(95,199,174,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Top Menu Color Skins:</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: -21px;">To Menu Style:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select">
+        <option selected>Default</option>
+        <option>Default</option>
+        <option>Border top</option>
+        <option>Border bottom</option>
+        <option>Border left</option>
+        <option>Border right</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0;">Direction:</p>
+    <div class="btn-group pt-0" role="group" aria-label="Basic example" style="width: 51%; padding: 8px 10px;">
+      <button type="button" class="btn btn-primary" style=" padding: 8px 10px;">LTR</button>
+      <button type="button" class="btn text-white"
+        style="background-color: rgba(33,37,41,255); padding: 8px 10px;">RTL</button>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0;">Layout Mode:</p>
+    <div class="btn-group pt-0" role="group" aria-label="Basic example" style="width: 51%; padding: 8px 10px;">
+      <button type="button" class="btn btn-primary" style=" padding: 8px 26px;">Wide</button>
+      <button type="button" class="btn text-white"
+        style="background-color: rgba(33,37,41,255); padding: 8px 26px;">Boxed</button>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Container Wide
+      Varitions:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>1300px</option>
+        <option>1600px</option>
+        <option>1900px</option>
+        <option>2200px</option>
+        <option>2500px</option>
+        <option>2800px</option>
+      </select>
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background Patterns:</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-2">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-2 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-2 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(59,59,59,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(25,25,25,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color:rgba(25,25,25,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background images (Boxed Layout):</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background color (Boxed Layout):</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Heading Font-Family:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>Open Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Heading Font-Family:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>Open Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: 0;">Preloader Examples:</p>
+    <div class="col-md-1">
+      <button type="button" class="btn small"
+        style="background-color: rgba(17,150,204,255);margin-bottom: 40px;">Preloaders</button>
+    </div>
+  </div>
+  <a href="#" onclick="show()" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    style="position: absolute;right: -36px; top: 220px;"><i class="fa fa-cog text-white" aria-hidden="true"
+      style="background-color: rgba(8,11,11,255);font-size: 24px; padding: 6px 8px;"></i></a>
+</div>
+
+
+
+</html>

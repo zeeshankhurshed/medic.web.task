@@ -1,0 +1,2050 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/test.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div class="section-site">
+    <header class="header">
+      <div class="header-inner-wrapper">
+        <div class="container">
+          <nav class="navbar navbar-light upper-navbar">
+
+            <div class="contact-info">
+              <a href="tel:+440-98-5298" class="navbar-brand text-white " style="margin-right: 8px;"><i
+                  class="fa fa-phone" aria-hidden="true"></i>Tel:+440-98-5298</a>
+              <a href="mailto:zeeshankhursheed680@gmail.com target_blank" class="navbar-brand text-white"
+                style="border-left:1px solid white ; border-right:1px solid white; padding:0 16px; font-size: large;"><i
+                  class="fa fa-envelope-o" aria-hidden="true"></i>info@example.com</a>
+              <a href="https://goo.gl/maps/Lh7aTs5WWBfB57jaA" target="_blank" class="navbar-brand text-white"><i
+                  class="fa fa-map" aria-hidden="true"></i>121 King street,
+                Melborone</a>
+
+            </div><!-- /.contact-info -->
+
+            <div class="d-flex social-icons">
+              <a href="https://facebook.com" target="_blank" class="pt-2"><i class="fa fa-facebook-square"
+                  aria-hidden="true"></i></a>
+              <a href="https://tweeter.com" target="_blank" class="pt-2"><i class="fa fa-twitter-square"
+                  aria-hidden="true"></i></a>
+              <a href="https://youtube.com" target="_blank" class="pt-2"><i class="fa fa-youtube-play"
+                  aria-hidden="true"></i></a>
+              <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="modal"
+                data-bs-target="#apointmentExampleModal">Make an
+                Appointment</a>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="apointmentExampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Make an Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+
+                <form class="row gy-2 gx-3 align-items-center">
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">Name</label>
+                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-text">@</div>
+                      <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-auto">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                      <label class="form-check-label" for="autoSizingCheck">
+                        Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+
+
+
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.header-inner-wrapper -->
+
+      <!-- <div class="triangle-up sodo">
+
+      </div>/.triangle-up -->
+
+
+      <div class="lower-navbar-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="img/logo.png" alt="" style="width:60px ;position: relative;"> <b
+                style="font-size:30px;position: absolute; top: 20px;">MEDINOVA</b> <br><span
+                style="font-weight:lighter; font-size:small; position: absolute;left: 272px; top: 48px; "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </ul>
+
+
+              <div class="d-flex">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle active text-white"
+                      style="background-color:rgba(86,99,193,255) ;border-radius: 30px; " href="#" id="navbarDropdown"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./about.html"  >About</a></li>
+                      <li><a class="dropdown-item" href="./product.html" >Product</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Hot
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      News
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Shortcodes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item " style="display:flex; justify-content: center; align-items:center;">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                        class="fa fa-search text-muted" aria-hidden="true"></i></a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog" style="max-width:100% ; top:-30px;">
+                        <div class="modal-content">
+                          <div class="modal-header" style="border-bottom: 0;">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <input type="text" class="form-control text-center pb-5"
+                              style="border: 0; font-size: xx-large; box-shadow: none;" id="exampleFormControlInput1"
+                              placeholder="Type and press Enter...">
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+
+                  <li class="nav-item "  style="display:flex; justify-content: center; align-items:center;">
+                    <div class="col-md-12"  style="display:flex; justify-content: center; align-items:center; position: relative;">
+                      <!-- <a href="" style="position: relative;"  onmouseenter="show()" onmouseleave="hide()" ><i class="fa fa-shopping-cart text-muted" aria-hidden="true">
+                        </i></a> -->
+                        <a href=""  onmouseenter="myfunction()" onmouseleave="hide()"><i class="fa fa-shopping-cart text-muted" aria-hidden="true">
+                        </i></a>
+                    </div>
+                        <div id="suits"style="display: none;">
+
+                          <div class="row pt-5 " >
+                            <div class="col-md-6 text-center">
+                              <i class="fa fa-times" aria-hidden="true">Banie</i>
+                              <p>1 x $ 18.00</p>
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6">
+                              <img style="width: 50px; height: 50px;" src="img/doctor.png" alt="">
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-12 pt-5 text-center">
+                              <button type="button" class=" btn-primary text-white" >View Chart</button>
+                              <button type="button" class=" btn-primary text-white" >Check Out</button>
+                            </div><!-- /.col-md-6 -->
+                          </div><!-- /.row -->
+
+                         
+                        </div>
+
+                    
+                  </li>
+
+
+
+                  <li class="nav-item " style="display:flex; justify-content: center; align-items:center;">
+                    <div class="col-md-12" style="display:flex; justify-content: center; align-items:center;">
+                      <a href="" data-bs-toggle="modal" data-bs-target="#eventBackdrop"><i
+                          class="fa fa-align-left text-muted" aria-hidden="true"></i></a>
+                    </div><!-- /.col-md-12 -->
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="eventBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                      tabindex="-1" aria-labelledby="eventBackdropLabel" aria-hidden="true" style=" height: 110%;   top: -31px;
+                      left: 435px;">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="eventBackdropLabel"> <a class="navbar-brand " href="#"
+                                style="margin-top: 20px;"><img src="img/logo.png" alt=""
+                                  style="width:50px ;position: relative;"> <b
+                                  style="font-size:20px;position: absolute; top: 24px;  ">MEDINOVA</b> <br><span
+                                  style="font-weight:lighter; font-size:small; position: absolute;left: 272px; top: 48px; "></a>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                              style="margin-top: -80px;"></button>
+                          </div>
+                          <p style="margin: 0 24px; font-size:small;">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. <br>Fugit sint porro Repellendus.</p>
+
+                          <footer class="footer psudo">
+
+                            <div class="row  pt-4">
+
+
+                              <div class="col-md-6 " style="margin: 0 24px; font-size:small;">
+                                <h4>Latest News</h4>
+                                <hr>
+                                <div class="row doctor">
+                                  <div class="col-md-4">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6">
+                                    <p>Sustainable</p>
+                                    <p>Construction</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4 pt-3">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 pt-4">
+                                    <p>Sustainable</p>
+
+                                    <p>April 15, 2021</p>
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4 pt-3">
+                                    <img src="img/card 1.png" alt="">
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 pt-4">
+                                    <p>Sustainable</p>
+
+                                    <p>April 15, 2021</p>
+                                  </div><!-- /.col-md-6 -->
+                                </div><!-- /.row -->
+                              </div><!-- /.col-md-3 -->
+
+
+                          </footer>
+
+                          <footer class="footer psudo">
+
+                            <div class="row py-4">
+
+
+                              <div class="col-md-6 " style="margin: 0 24px; font-size:small;">
+                                <h4>Contact Info</h4>
+                                <hr>
+                                <div class="row doctor">
+                                  <div class="col-md-4 ">
+                                    <i class="fa fa-user-md " aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>John Doe</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>+51 925 925 125</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>@gmail.com</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+                                  <div class="col-md-4">
+                                    <i class="fa fa-user-md" aria-hidden="true" style="font-size: 32px;"></i>
+                                  </div><!-- /.col-md-6 -->
+                                  <div class="col-md-6 text-muted">
+                                    <p>Bank flofward london</p>
+
+                                  </div><!-- /.col-md-6 -->
+
+
+                                </div><!-- /.row -->
+                              </div><!-- /.col-md-3 -->
+
+                          </footer>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+      </div><!-- /.lower-navbar-wrapper -->
+
+
+    </header>
+
+    <main>
+      <div class="main-carosuel-wrapper">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+              class="active d-none d-md-block d-lg-block " aria-current="true" aria-label="Slide 1"
+              style="height:20px; width: 20px; border-radius:50%; background-color: white; border:3px solid white;"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              class=" d-none d-md-block d-lg-block" aria-label="Slide 2"
+              style="height:20px; width: 20px; border-radius:50%; background-color: white; border:3px solid white;"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              class=" d-none d-md-block d-lg-block" aria-label="Slide 3"
+              style="height:20px; width: 20px; border-radius:50%; background-color: white; border:3px solid white;"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/carosul 1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 >WE PROVIDE</h1>
+                <h2>TOTAL HEALTH CARE SOLUTION</h2>
+                <p>Some representative placeholder content for the first slide for the first slide <br>for the first
+                  slide.</p>
+                <button type="button" class="btn btn-primary active mt-4 mb-5" data-bs-toggle="button"
+                  autocomplete="off" aria-pressed="true">Find out more</button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/carosul 2.jpg.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1> WE PROVIDE</h1>
+                <h2>TOTAL HEALTH CARE SOLUTION</h2>
+                <p>Some representative placeholder content for the first slide for the first slide <br>for the first
+                  slide.</p>
+                <button type="button" class="btn btn-primary active mt-4 mb-5" data-bs-toggle="button"
+                  autocomplete="off" aria-pressed="true">Find out more</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/carosul 3.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>WE PROVIDE</h1>
+                <h2>TOTAL HEALTH CARE SOLUTION</h2>
+                <p>Some representative placeholder content for the first slide for the first slide <br>for the first
+                  slide.</p>
+                <button type="button" class="btn btn-primary active mt-4 mb-5" data-bs-toggle="button"
+                  autocomplete="off" aria-pressed="true">Find out more</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon d-none d-md-block" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon d-none d-md-block " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div><!-- /.main-carosuel-wrapper -->
+
+      <div class="lead-text py-5 bg-light ">
+        <div class="container">
+          <div class="row pt-5 medinova">
+            <div class="col-md-12">
+              <h2 class="mb-0">Welcome to <span style="color:rgba(0,163,200,255);">Medinova</span> </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <div class="description-info bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card text-center pt-5 text-white">
+                <img src="img/emergency-ambulance.png" class="card-img-top m-auto " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Emergency Care</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card text-center pt-5 text-white">
+                <img src="img/medical bed.png" class="card-img-top m-auto " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Operation Theatre</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card text-center pt-5 text-white">
+                <img src="img/stethoscope.png" class="card-img-top m-auto " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Outdoor Checkup</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card text-center pt-5 text-white">
+                <img src="img/drop.png" class="card-img-top m-auto " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Blook Test</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-3 -->
+          </div><!-- /.row -->
+
+        </div><!-- /.container -->
+      </div><!-- /.description-info -->
+
+
+      <div class="lead-text py-5 bg-light">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">Our <span style="color:rgba(0,163,200,255);">Services</span> </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <div class="medi-cards-wrapper ">
+        <div class="container">
+          <div class="row sml bg-light">
+            <div class="col-md-6 col-lg-4 bg-white">
+              <div class="card  pb-3">
+                <img src="img/doctors vedio posters.png" class="card-img-top  " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Emergency Care</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/ambulance.png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 bg-white">
+              <div class="card  pb-3">
+                <img src="img/3.png" class="card-img-top  " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Outdoor Checkup</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/stethoscope (2).png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 bg-white">
+              <div class="card pb-3 ">
+                <img src="img/depositphotos_26631119-stock-photo-male-doctor-in-front-of.jpg" class="card-img-top  "
+                  alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Blood Test</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/blood.png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 pt-4 bg-white">
+              <div class="card  ">
+                <img src="img/neuro card.png" class="card-img-top  " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Operation Theater</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/patient.png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4  pt-4 bg-white">
+              <div class="card  ">
+                <img src="img/Microscope.jpg" class="card-img-top  " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Cancer Service</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/drug.png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4  pt-4 bg-white">
+              <div class="card  ">
+                <img src="img/card.png" class="card-img-top  " alt="...">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">ICU Service</h5>
+                  <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of
+                    the card's content of the card's content of the card's.</p>
+                  <a href="#" class="btn "><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a>
+                  <img src="img/doctor.png" class="card-img-top ambulance d-none d-md-block" alt="...">
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.medi-cards-wrapper -->
+
+      <div class="lead-text py-5 ">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">WHY <span style="color:rgba(0,163,200,255);">CHOOSE</span> US </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <div class="emergancy-service-wrapper">
+        <div class="container">
+          <div class="row sml">
+            <div class="col-md-6 col-lg-4 btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/first-aid-kit (2).png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Emergancy Care</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/dna (2).png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Cancer Services</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/hospital-bed.png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Operation Theatre</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 pt-5 top btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/blood (2).png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Blood Test</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 pt-5 btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/aid-kit.png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Outdoor Checkup</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-6 col-lg-4 pt-5 btm">
+              <div class="row">
+                <div class="col-md-4 ">
+                  <img src="img/capsule.png" alt="">
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-7 ">
+                  <h5 class="pb-2">Pharmacy</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt fuga maiores vero a
+                    impedit.</p>
+                </div><!-- /.col-md-7 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.emergancy-service-wrapper -->
+
+      <div class="lead-text py-5 ">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">Our <span style="color:rgba(0,163,200,255);">Specilalities</span> </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+
+      <div class="specialization-wrapper">
+        <div class="container">
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-tint"
+                  aria-hidden="true"></i></button>
+              <p class="text-center text-muted">Blood Test</p>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-heart"
+                  aria-hidden="true"></i></button>
+              <p class="text-center text-muted ">Urology</p>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-heart"
+                  aria-hidden="true"></i></button>
+              <p class="text-center text-muted ">Dental</p>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-heart"
+                  aria-hidden="true"></i></button>
+              <p class="text-center text-muted ">Neurology</p>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-heart"
+                  aria-hidden="true"></i></button>
+              <p class="text-center text-muted ">Cardiology</p>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row pt-4">
+                <div class="col-md-5 ">
+                  <img src="img/lab test blood.jpg" alt="">
+                </div><!-- /.col-md-5 -->
+                <div class="col-md-12 col-lg-6 test">
+                  <h5 class="pb-3">Blood Test</h5>
+                  <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam
+                    nam mollitia ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam nam mollitia
+                    ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+
+                  <div class="row bottom">
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                  </div><!-- /.row -->
+
+                  <button type="button" class="btn mt-4"
+                    style="padding:8px 24px; background-color:rgba(0,163,200,255);">View Details</button>
+                </div><!-- /.col-md-8 -->
+
+              </div><!-- /.row -->
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row pt-4">
+                <div class="col-md-5 ">
+                  <img src="img/lab test blood.jpg" alt="">
+                </div><!-- /.col-md-5 -->
+                <div class="col-md-12 col-lg-6 test">
+                  <h5 class="pb-3">Urology</h5>
+                  <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam
+                    nam mollitia ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam nam mollitia
+                    ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+
+                  <div class="row bottom">
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                  </div><!-- /.row -->
+
+                  <button type="button" class="btn mt-4"
+                    style="padding:8px 24px; background-color:rgba(0,163,200,255);">View Details</button>
+                </div><!-- /.col-md-8 -->
+
+              </div><!-- /.row -->
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row pt-4">
+                <div class="col-md-5 ">
+                  <img src="img/lab test blood.jpg" alt="">
+                </div><!-- /.col-md-5 -->
+                <div class="col-md-12 col-lg-6 test">
+                  <h5 class="pb-3">Dental</h5>
+                  <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam
+                    nam mollitia ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam nam mollitia
+                    ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+
+                  <div class="row bottom">
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                  </div><!-- /.row -->
+
+                  <button type="button" class="btn mt-4"
+                    style="padding:8px 24px; background-color:rgba(0,163,200,255);">View Details</button>
+                </div><!-- /.col-md-8 -->
+
+              </div><!-- /.row -->
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row pt-4">
+                <div class="col-md-5 ">
+                  <img src="img/lab test blood.jpg" alt="">
+                </div><!-- /.col-md-5 -->
+                <div class="col-md-12 col-lg-6 test">
+                  <h5 class="pb-3">Neurology</h5>
+                  <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam
+                    nam mollitia ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam nam mollitia
+                    ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+
+                  <div class="row bottom">
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                  </div><!-- /.row -->
+
+                  <button type="button" class="btn mt-4"
+                    style="padding:8px 24px; background-color:rgba(0,163,200,255);">View Details</button>
+                </div><!-- /.col-md-8 -->
+
+              </div><!-- /.row -->
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="row pt-4">
+                <div class="col-md-5 ">
+                  <img src="img/lab test blood.jpg" alt="">
+                </div><!-- /.col-md-5 -->
+                <div class="col-md-12 col-lg-6 test">
+                  <h5 class="pb-3">Cardiology</h5>
+                  <p class="pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam
+                    nam mollitia ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magni illo id aliquam nam mollitia
+                    ullam illum facere, saepe animi similique accusantium laudantium eum, ratione quisquam.
+                    Exercitationem velit blanditiis nobis, .</p>
+
+                  <div class="row bottom">
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                    <div class="col-md-1 check">
+                      <img src="img/check.png" alt="">
+                    </div><!-- /.col-md-1 -->
+                    <div class="col-md-5">
+                      <p>Qualified Doctors</p>
+                    </div><!-- /.col-md-5 -->
+
+                  </div><!-- /.row -->
+
+                  <button type="button" class="btn mt-4"
+                    style="padding:8px 24px; background-color:rgba(0,163,200,255);">View Details</button>
+                </div><!-- /.col-md-8 -->
+
+              </div><!-- /.row -->
+            </div>
+          </div>
+
+        </div><!-- /.container -->
+      </div><!-- /.specialization-wrapper -->
+
+
+      <div class="lead-text py-5 ">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">Our <span style="color:rgba(0,163,200,255);">Doctors</span> </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <!-- <div class="chain">
+        
+      </div> -->
+
+
+
+      
+    
+      <div class="employee-info-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 c-effect btm">
+              <div class="card" style="border: 0; border-radius:0;">
+                <img src="img/2.png" class="card-img-top" alt="...">
+                <div class="card-body t-cnt">
+                  <h5 class="card-title">Eliz Thoppar</h5>
+                  <p class="text-muted">Neurologist</p>
+                  <p> Monday - Friday <span style="padding-left:12px;">8.00 - 17.00</span></p>
+                  <p> Saturday <span style="padding-left:66px;">9.00 - 16.00</span></p>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  <i class="fa fa-skype" aria-hidden="true"></i>
+                </div>
+              </div>
+            <i class="fa fa-link chain"  aria-hidden="true"></i>
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6 col-lg-3 c-effect btm">
+              <div class="card" style="border: 0; border-radius:0;">
+                <img src="img/2.png" class="card-img-top" alt="...">
+                <div class="card-body t-cnt">
+                  <h5 class="card-title">Eliz Thoppar</h5>
+                  <p class="text-muted">Neurologist</p>
+                  <p> Monday - Friday <span style="padding-left:12px;">8.00 - 17.00</span></p>
+                  <p> Saturday <span style="padding-left:66px;">9.00 - 16.00</span></p>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  <i class="fa fa-skype" aria-hidden="true"></i>
+                </div>
+              </div>
+            <i class="fa fa-link chain"  aria-hidden="true"></i>
+            </div><!-- /.col-md-6 -->
+
+              <div class="col-md-6 col-lg-3 c-effect btm">
+              <div class="card" style="border: 0; border-radius:0;">
+                <img src="img/2.png" class="card-img-top" alt="...">
+                <div class="card-body t-cnt">
+                  <h5 class="card-title">Eliz Thoppar</h5>
+                  <p class="text-muted">Neurologist</p>
+                  <p> Monday - Friday <span style="padding-left:12px;">8.00 - 17.00</span></p>
+                  <p> Saturday <span style="padding-left:66px;">9.00 - 16.00</span></p>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  <i class="fa fa-skype" aria-hidden="true"></i>
+                </div>
+              </div>
+            <i class="fa fa-link chain"  aria-hidden="true"></i>
+            </div><!-- /.col-md-6 -->
+
+            <div class="col-md-6 col-lg-3 c-effect btm">
+              <div class="card" style="border: 0; border-radius:0;">
+                <img src="img/2.png" class="card-img-top" alt="...">
+                <div class="card-body t-cnt">
+                  <h5 class="card-title">Eliz Thoppar</h5>
+                  <p class="text-muted">Neurologist</p>
+                  <p> Monday - Friday <span style="padding-left:12px;">8.00 - 17.00</span></p>
+                  <p> Saturday <span style="padding-left:66px;">9.00 - 16.00</span></p>
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  <i class="fa fa-skype" aria-hidden="true"></i>
+                </div>
+              </div>
+            <i class="fa fa-link chain"  aria-hidden="true"></i>
+            </div><!-- /.col-md-6 -->
+
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.employee-info-wrapper -->
+
+      <div class="lead-text py-5 " style="background-color: rgba(232,232,232,255);">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">Our <span style="color:rgba(0,163,200,255);">Pricing</span> Plan </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <div class="price-plan-card pb-4" style="background-color: rgba(232,232,232,255);">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-4 btm">
+              <div class="card text-center" style="border-radius: 20px; padding-top:60px;">
+                
+                  <img src="img/tooth.png" class="card-img-top py-5" alt="...">
+                
+                <div class="card-body">
+                  <h5 class="card-title pt-5">Dental Care</h5>
+                  <p class="card-text text-muted">Hurry to grap your offer</p>
+                  <p>$ <span style="color: rgba(0,163,200,255); font-size:60px;">129</span></p>
+
+                  <p style="color: rgba(0,163,200,255); font-size:xx-large;">15% <span
+                      style="color:black; font-size:small">Discount</span></p>
+                  <a href="#" class="btn btn-primary mt-4"
+                    style="background-color: rgba(0,163,200,255);padding: 8px 24px;">Get Offer</a>
+
+                  <div class="d-grid gap-2">
+
+                    <button class="btn btn-primary label" type="button">LABEL</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 btm">
+              <div class="card text-center" style="border-radius: 20px; padding-top:60px;">
+                <img src="img/blood.png" class="card-img-top py-5" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title pt-5">Blood Test</h5>
+                  <p class="card-text text-muted">Hurry to grap your offer</p>
+                  <p>$ <span style="color: rgba(0,163,200,255); font-size:60px;">159</span></p>
+
+                  <p style="color: rgba(0,163,200,255); font-size:xx-large;">25% <span
+                      style="color:black; font-size:small">Discount</span></p>
+                  <a href="#" class="btn btn-primary mt-4"
+                    style="background-color: rgba(0,163,200,255);padding: 8px 24px;">Get Offer</a>
+
+                  <div class="d-grid gap-2">
+
+                    <button class="btn btn-primary label" type="button">LABEL</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4">
+              <div class="card text-center" style="border-radius: 20px; padding-top:60px;">
+                <img src="img/stethoscope (2).png" class="card-img-top py-5" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title pt-5">Medical Checkup</h5>
+                  <p class="card-text text-muted">Hurry to grap your offer</p>
+                  <p>$ <span style="color: rgba(0,163,200,255); font-size:60px;">199</span></p>
+
+                  <p style="color: rgba(0,163,200,255); font-size:xx-large;">35% <span
+                      style="color:black; font-size:small">Discount</span></p>
+                  <a href="#" class="btn btn-primary mt-4"
+                    style="background-color: rgba(0,163,200,255);padding: 8px 24px;">Get Offer</a>
+
+                  <div class="d-grid gap-2">
+
+                    <button class="btn btn-primary label" type="button">LABEL</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+
+
+
+
+
+        </div><!-- /.container -->
+      </div><!-- /.price-plan-card -->
+
+      <div class="facilitation-info-wrapper section-space">
+
+        <div class="row pt-5">
+          <div class="col-md-6 col-lg-4 d-none d-md-block d-none d-sm-block ">
+            <img src="img/card 44.jpg" alt="">
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-6 col-lg-4 pt-5 facilitation ">
+            <h3 style="margin-left: 60px;" class="pt-5">Our Facilities</h3>
+            <ul style="margin-left: 50px;">
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+              <li><a href=""></a>Out Patient Rehablitaion</li>
+            </ul>
+            <a href="#" class="btn btn-primary bg-light mt-4 "
+              style="background-color: rgba(0,163,200,255);padding: 16px 40px; color:black; margin-left: 60px;">Read
+              More</a>
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-6 col-lg-4 form">
+            <h3 class="pt-5" style="padding-left: 60px;">Reservation Form</h3>
+            <div class="row g-3 pt-4">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Enter Name" aria-label="Enter Name">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Enter Email" aria-label="Enter Email">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Enter Subject" aria-label="Enter Subject">
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Enter Phone" aria-label="Enter Phone">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Message"
+                  aria-label="Enter Message" rows="3"></textarea>
+              </div>
+              <div class="col-md-6 form-btn">
+                <a href="" class="btn btn-primary " style="padding: 12px 32px;
+                border: 0; border-radius: 0;" disabled>Send Your Message</a>
+                <a href="" class="btn  mt-3"
+                  style="background-color: rgba(255,101,1,255); padding: 12px 32px; border: 0; border-radius: 0;"
+                  disabled>Reset</a>
+              </div>
+
+            </div>
+          </div><!-- /.col-md-4 -->
+        </div> <!-- /.row -->
+
+      </div><!-- /.facilitation-info-wrapper -->
+
+
+      <div class="lead-text py-5 ">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-12">
+              <h2 class="mb-0">Our <span style="color:rgba(0,163,200,255);">Latest</span> News </h2>
+              <img src="img/dna.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius minus officiis numquam vel
+                reprehenderit <br> Lorem, ipsum.</p>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.lead-text -->
+
+      <div class="patient-related-wrapper pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 pb-4">
+              <div class="card  pb-3 bg-light " style="border:0;">
+                <img src="img/card 5.jpg" class="card-img-top  " alt="...">
+                <div class="card-body pt-5 sml">
+                  <h5 class="card-title">Captilized on low hanging fruit to identify a ball park test</h5>
+                  <hr>
+                  <a href=""><span><i class="fa fa-calendar pt-3" aria-hidden="true"></i> July 20, 2021 </span><span
+                      style="padding-left: 24px;"><i class="fa fa-comments-o" aria-hidden="true"></i> 214
+                      comments</span></a>
+                  <p class="card-text pb-3 pt-5">Some quick example text to build on the card title and make up the bulk
+                    of the card's content...</p>
+                  <a href=""><i class="fa fa-arrow-circle-right" aria-hidden="true" style="padding-right:8px;"></i> View
+                    Details</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 pb-4">
+              <div class="card  pb-3 bg-light " style="border:0;">
+                <img src="img/card 6.jpg" class="card-img-top  " alt="...">
+                <div class="card-body pt-5 sml">
+                  <h5 class="card-title">Captilized on low hanging fruit to identify a ball park test</h5>
+                  <hr>
+                  <a href=""><span><i class="fa fa-calendar pt-3" aria-hidden="true"></i> July 20, 2021 </span><span
+                      style="padding-left: 24px;"><i class="fa fa-comments-o" aria-hidden="true"></i> 214
+                      comments</span></a>
+                  <p class="card-text pb-3 pt-5">Some quick example text to build on the card title and make up the bulk
+                    of the card's content...</p>
+                  <a href=""><i class="fa fa-arrow-circle-right" aria-hidden="true" style="padding-right:8px;"></i> View
+                    Details</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 pb-4">
+              <div class="card  pb-3 bg-light " style="border:0;">
+                <img src="img/neuro card.png" class="card-img-top  " alt="...">
+                <div class="card-body pt-5 sml">
+                  <h5 class="card-title">Captilized on low hanging fruit to identify a ball park test</h5>
+                  <hr>
+                  <a href=""><span><i class="fa fa-calendar pt-3" aria-hidden="true"></i> July 20, 2021 </span><span
+                      style="padding-left: 24px;"><i class="fa fa-comments-o" aria-hidden="true"></i> 214
+                      comments</span></a>
+                  <p class="card-text pb-3 pt-5">Some quick example text to build on the card title and make up the bulk
+                    of the card's content...</p>
+                  <a href=""><i class="fa fa-arrow-circle-right" aria-hidden="true" style="padding-right:8px;"></i> View
+                    Details</a>
+                </div>
+              </div>
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.patient-related-wrapper -->
+
+      <div class="employee-intro-wrapper section-space " style="background-color: rgba(236,236,236,255);">
+        <div class="container">
+          <div class="row pt-5 ">
+            <div class="col-md-4 sml">
+              <p class="bg-white"
+                style="border: 2px solid transparent; border-radius:8px; padding: 32px; font-style: italic;">Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quos, voluptates voluptatibus. Rerum quibusdam iusto quam
+                fugit impedit, dolores unde architecto voluptatibus placeat doloribus id cum est, quod facere et magnam
+                .</p>
+              <a href=""><img class="pt-2" src="img/card 2.png" alt=""> <span
+                  style="font-weight:bold ;font-size:large; padding-top:0;">Mark Smith</span> <span class="text-muted"
+                  style="position:absolute; top: 25px; right: 30px;">Employee </span></a>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 sml">
+              <p class="bg-white"
+                style="border: 2px solid transparent; border-radius:8px; padding: 32px; font-style: italic;">Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quos, voluptates voluptatibus. Rerum quibusdam iusto quam
+                fugit impedit, dolores unde architecto voluptatibus placeat doloribus id cum est, quod facere et magnam
+                .</p>
+              <a href=""><img class="pt-2" src="img/card 2.png" alt=""> <span
+                  style="font-weight:bold ;font-size:large; padding-top:0;">Mark Smith</span> <span class="text-muted"
+                  style="position:absolute; top: 25px; right: 30px;">Employee </span></a>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 sml">
+              <p class="bg-white"
+                style="border: 2px solid transparent; border-radius:8px; padding: 32px; font-style: italic;">Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quos, voluptates voluptatibus. Rerum quibusdam iusto quam
+                fugit impedit, dolores unde architecto voluptatibus placeat doloribus id cum est, quod facere et magnam
+                .</p>
+              <a href=""><img class="pt-2" src="img/card 2.png" alt=""> <span
+                  style="font-weight:bold ;font-size:large; padding-top:0;">Mark Smith</span> <span class="text-muted"
+                  style="position:absolute; top: 25px; right: 30px;">Employee </span></a>
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.employee-intro-wrapper -->
+
+      <div class="emergancey-info-wrapper pt-5 " style="background-color: rgba(236,236,236,255);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-white p-5 info" style="background-color: rgba(0,163,200,255); ">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/ambulance.png" alt="">
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-9">
+                  <h5>24 Hours Service</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div><!-- /.col-md-9 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 text-white p-5 info" style="background-color: rgba(86,99,193,255); ">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/bubble-chat.png" alt="">
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-9">
+                  <h5>Online Help</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div><!-- /.col-md-9 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 text-white p-5 info" style="background-color: rgba(0,163,200,255); ">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/credit-card.png" alt="">
+                </div><!-- /.col-md-3 -->
+                <div class="col-md-9">
+                  <h5>Online Payment</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div><!-- /.col-md-9 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-md-4 -->
+
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.emergancey-info-wrapper -->
+    </main>
+
+    <footer class="footer" style="background-color: rgba(26,26,26,255);">
+      <div class="container">
+        <div class="row py-5 section-space scn">
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""> <span class="text-white">MEDINOVA</span>
+            </a>
+            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, modi! Ut cumque reprehenderit
+              magni, nulla</p>
+            <div class="row">
+              <div class="col-md-2">
+                <i class="fa fa-facebook-square" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-twitter-square" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-youtube-play" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+              <div class="col-md-2">
+                <i class="fa fa-instagram" aria-hidden="true"
+                  style="font-size: xx-large; color:rgba(6,132,160,255);"></i>
+              </div><!-- /.col-md-3 -->
+
+            </div><!-- /.row -->
+
+
+
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <h4 class="text-white">Latest News</h4>
+            <hr>
+            <div class="row text-white doctor">
+              <div class="col-md-4">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+                <p style="margin-bottom: 12px;">Construction</p>
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+
+              <div class="col-md-4 pt-3">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6 pt-4">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+
+              <div class="col-md-4 pt-3">
+                <img src="img/card 1.png" alt="">
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6 pt-4">
+                <p style="margin-bottom: 12px;">Sustainable</p>
+
+                <p style="margin-bottom: 12px;">April 15, 2021</p>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.col-md-3 -->
+
+          <div class="col-md-6 col-lg-3 text-white sml">
+            <h4 class="text-white">Links</h4>
+            <hr>
+            <div class="row text-white ">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"><span
+                    style="padding-left:8px; color: white;">About</span></i>
+              </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+
+            <div class="row text-white pt-4">
+              <div class="col-md-6">
+                <i class="fa fa-angle-right" style="color: rgba(6,132,160,255);" aria-hidden="true"> <span
+                    style="padding-left:8px; color: white;">Insurance</span> </i>
+              </div><!-- /.col-md-6 -->
+
+            </div><!-- /.row -->
+
+          </div>
+
+          <div class="col-md-6 col-lg-3 text-white ">
+            <h4 class="text-white">Opening Hours</h4>
+            <hr>
+            <p>Friday - Saturday: 10:00am - 6.00pm</p>
+            <hr>
+            <p>Friday - Saturday: 10:00am - 6.00pm</p>
+            <hr>
+            Sunday: Closed
+          </div>
+        </div>
+      </div><!-- /.container -->
+
+    </footer>
+
+    <div class="bottom-navbar py-3 " style="background-color: rgba(42,42,42,255);">
+      <div class="container">
+        <div class="row text-white m-auto sml" style="justify-content: space-between; ">
+          <div class="col-md-4" style="color:rgba(160,166,163,255);">
+            <p>2021 Theme Moscat. All Right Reserved.</p>
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-2" style="color:rgba(160,166,163,255);     padding-left: 74px;">
+            <p>Site Template.</p>
+          </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.bottom-navbar -->
+  </div><!-- /.section-site -->
+
+  <div class="button-up-wrapper">
+    <div class="row">
+      <div class="col">
+        <a href=""><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.button-up-wrapper -->
+
+  <div class="sidebar-icons">
+    <div class="row images bg-white">
+      <div class="col-12 ">
+        <a href="" onmouseenter="myextention()" onmouseleave="exthide()" > <img src="img/carts.png" alt=""></a>
+        <div style="display: none;"  id="ext" >By HTML</div>
+
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+        <a href="" onmouseenter="mywp()" onmouseleave="yhide()" >  <img src="img/w.jpg" alt="">  </a>
+        <div style="display: none;"  id="WP" >Check WP</div>
+      
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+        <a href="" onmouseenter="buywp()" onmouseleave="zhide()" >  <img src="img/cart w.jpg" alt="">  </a>
+        <div style="display: none;"  id="Buy_wp" >BUY WP</div>
+      
+      </div><!-- /.col-12 -->
+      <div class="col-12">
+        
+        <a href=""  onmouseenter="Document()" onmouseleave="yzhide()"> <img src="img/docs.png" alt=""></a>
+        <div style="display: none;"  id="docs" >Docs</div>
+        
+      </div><!-- /.col-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.sidebar-icons -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+
+
+
+</body>
+<div class="px-3 my-sidebar" id="box"
+  style="background-color: rgba(8,11,11,255) ; width: 350px;position: fixed; bottom:0;left:0;top: 0;">
+  <h5 class="text-white p-3" style="background-color: rgba(0,7,8,255);">Style Switcher</h5>
+  <div class="my-sidebar-inner">
+    <p class="text-muted mb-0">Theme color set</p>
+    <p class="text-muted mb-0">(You can create your own set easily):</p>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(95,199,174,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(89,180,115,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(89,180,115,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(95,199,174,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+    </div>
+    <div class="btn-group pt-3" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn " style="background-color: rgba(32,44,69,255);"></button>
+      <button type="button" class="btn " style="background-color: rgba(17,150,204,255);"></button>
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Top Menu Color Skins:</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: -21px;">To Menu Style:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select">
+        <option selected>Default</option>
+        <option>Default</option>
+        <option>Border top</option>
+        <option>Border bottom</option>
+        <option>Border left</option>
+        <option>Border right</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0;">Direction:</p>
+    <div class="btn-group pt-0" role="group" aria-label="Basic example" style="width: 51%; padding: 8px 10px;">
+      <button type="button" class="btn btn-primary" style=" padding: 8px 10px;">LTR</button>
+      <button type="button" class="btn text-white"
+        style="background-color: rgba(33,37,41,255); padding: 8px 10px;">RTL</button>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0;">Layout Mode:</p>
+    <div class="btn-group pt-0" role="group" aria-label="Basic example" style="width: 51%; padding: 8px 10px;">
+      <button type="button" class="btn btn-primary" style=" padding: 8px 26px;">Wide</button>
+      <button type="button" class="btn text-white"
+        style="background-color: rgba(33,37,41,255); padding: 8px 26px;">Boxed</button>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Container Wide
+      Varitions:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>1300px</option>
+        <option>1600px</option>
+        <option>1900px</option>
+        <option>2200px</option>
+        <option>2500px</option>
+        <option>2800px</option>
+      </select>
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background Patterns:</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(89,180,115,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-2">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-2 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-2 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(59,59,59,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(25,25,25,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color:rgba(25,25,25,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background images (Boxed Layout):</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="pt-3 text-muted" style="margin-bottom: -2px;">Background color (Boxed Layout):</p>
+    <div class="row ">
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(32,44,69,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(17,150,204,255);"></button>
+      </div><!-- /.col-md-1 -->
+      <div class="col-md-1">
+        <button type="button" class="btn small" style="background-color: rgba(95,199,174,255);"></button>
+      </div><!-- /.col-md-1 -->
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Heading Font-Family:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>Open Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: -21px;">Heading Font-Family:</p>
+    <div class="col-md-4" style="width: 80%;">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select ">
+        <option selected>Open Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+        <option>Diod Sans</option>
+      </select>
+    </div>
+    <p class="text-muted pt-3 " style="margin-bottom: 0; margin-bottom: 0;">Preloader Examples:</p>
+    <div class="col-md-1">
+      <button type="button" class="btn small"
+        style="background-color: rgba(17,150,204,255);margin-bottom: 40px;">Preloaders</button>
+    </div>
+  </div>
+  <a href="#" onclick="show()" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    style="position: absolute;right: -36px; top: 220px;"><i class="fa fa-cog text-white" aria-hidden="true"
+      style="background-color: rgba(8,11,11,255);font-size: 24px; padding: 6px 8px;"></i></a>
+</div>
+
+
+
+</html>
